@@ -17,7 +17,7 @@ body {
 }
 
 .box {
-    position: relative; /* Changed to relative for proper positioning */
+    position: relative; 
     width: 400px;
     height: 100px;
     background: white;
@@ -41,7 +41,7 @@ body {
 }
 
 .box.offline::before {
-    background: gray; /* Changed to gray for offline state */
+    background: gray; 
 }
 
 .box .icon {
@@ -69,12 +69,12 @@ body {
     color: black;
 }
 
-/* Added class for offline state */
+
 .box.offline .icon {
     background: gray;
 }
 
-/* Added class for offline state */
+
 .box.offline .icon i {
     color: black;
 }
